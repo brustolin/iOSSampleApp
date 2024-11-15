@@ -12,13 +12,11 @@ struct ContentView: View {
         Button {
             [][0]
         } label: {
-            VStack {
+            HStack {
                 Image(systemName: "flame.circle.fill")
-                    .font(Font.system(size: 100))
-                    .imageScale(.large)
-                    .foregroundStyle(.tint)
                 Text("CRASH!")
             }
+            .font(Font.system(size: 40))
         }
         .padding()
     }
